@@ -1,0 +1,15 @@
+input:checked + p {
+    background: darkgreen;
+    color: white;
+}
+
+input:not(:checked) + p {
+    background: darkgrey;
+    color: black;
+}
+
+
+
+p:not(.meio) {
+    color: blue;
+}

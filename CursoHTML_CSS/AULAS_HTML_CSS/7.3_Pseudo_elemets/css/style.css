@@ -1,0 +1,38 @@
+
+/* usa ''::'' para usar o pseudo elements */
+
+
+/* after ou before usado é do conteudo do LI e nao do ul ao todo*/
+ul li::after {
+    content: ' - ';
+    background-color: red;
+    color: white;
+    display: block;
+}
+
+p {
+    font-size: 24px;
+}
+
+
+p::first-letter {
+    font-size: 150px;
+    display: block;
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+p::first-line {
+    background-color: rebeccapurple;
+}
+
+p::selection {
+    background: black;
+    color: white;
+}
+
+/* usando o placehoder */
+
+::placeholder {
+    color: blueviolet;
+}

@@ -1,0 +1,12 @@
+#texto {
+    font-size: 70px;
+    font-family: sans-serif;
+    color: red;
+}
+
+/* QUANDO FOR HERDADO USA "inherit" E QUANDO NAO FOR "initial".*/
+
+p {
+    font-size: inherit;
+    color: initial;
+}

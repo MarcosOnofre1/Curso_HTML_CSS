@@ -1,0 +1,24 @@
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+.color-red {
+   color: rgb(134, 69, 139);
+}
+
+.main-content .heading {
+   font-family: monospace;
+   font-style: italic;
+   color: red;
+}
+
+div {
+   color: initial;
+   margin-left: 20px;
+}
+
+.pai > .filha > .filha {
+   color: red;
+}

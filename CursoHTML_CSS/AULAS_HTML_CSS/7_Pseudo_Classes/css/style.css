@@ -1,0 +1,70 @@
+.heading {
+    transition:all 300ms ease-in-out
+}
+
+.heading:hover {
+    background: red;
+}
+
+a {
+    color: darkorange
+}
+
+/*link que nunca foi visitado*/
+a:link {
+    color: darkorchid
+}
+
+/*link que ja foi visitado*/
+a:visited {
+    color:firebrick
+}
+
+a:hover {
+    background: darkmagenta;
+    color: white;
+    text-decoration: none;
+}
+
+a:active {
+    background: grey;
+    color: white;
+    text-decoration: none;
+}
+
+input:focus {
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    outline: none;
+    border: 1px solid black
+}
+
+/* 
+    AQUI USAMOS PARA HABILITAR OU DESABILITAR BOX, CHECKBOX E ETC.
+- tbm tem que tirar o ''disable'' do hmtl pra funcinar o enabled.
+
+*/
+
+input:disabled {
+    background: darkgray;
+    cursor: not-allowed;
+}
+
+input:enabled {
+    background: darkturquoiseS;
+}
+
+input:checked + p {
+    background: red;
+}
+
+/* AQUI E SOBRE OS ITEMS*/
+
+.pai .lista li:first-child {
+    background: red;
+}
+
+
+/*requerimento no input*/
+input:required {
+    background: darkred;
+}

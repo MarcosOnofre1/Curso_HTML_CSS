@@ -1,0 +1,23 @@
+/*
+~~ ESCOLHEMOS ESPECIFICO QUAL SERIA ~~
+*/
+ul li:nth-child(2) {
+    background: red;
+}
+
+/* IMPARES */
+ul li:nth-child(odd) {
+    background: darkorchid;
+} 
+/* PARES */
+ul li:nth-child(even) {
+    background: darkcyan;
+} 
+/* Numero + n = pula em quatidade do numero */
+ul li:nth-child(3n) {
+    background-color: darkgoldenrod;
+}
+/* começa dps do n ex: no caso seria o 5, dps do 5 ele começaria a contar o 3*/
+ul li:nth-child(3n+5) {
+    background-color: rgb(168, 109, 158);
+}

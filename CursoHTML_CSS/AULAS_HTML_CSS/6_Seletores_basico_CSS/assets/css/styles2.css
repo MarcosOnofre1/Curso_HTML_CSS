@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*
+~~ aqui  temos de um jeito com DIV e LOREM ~~
+.pai h1+p {
+    color: red;
+}
+
+.pai p+h1 {
+    color: yellow;
+}
+*/
+
+[meu-atributo="valor"] {
+    color: red;
+}
+
+[checked] {
+    width: 50px;
+    height: 50px;
+}
+
